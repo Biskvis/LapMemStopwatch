@@ -1,0 +1,75 @@
+body {
+  font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color:dodgerblue;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid gray;
+  border-radius: 8px;
+  padding: 20px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.time {
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 8px;
+  width: 400px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.buttons {
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.buttons > button {
+  width: 90px;
+  height: 40px;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.disabled:hover {
+  cursor: not-allowed;
+}
+
+.laps {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.lap-info {
+  display: flex;
+  gap: 80px;
+}
+
+.lap-stats {
+  display: flex;
+  gap: 80px;
+  
+}
+
+span {
+  font-size: 18px;
+}
+
+
+
